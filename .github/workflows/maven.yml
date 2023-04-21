@@ -21,7 +21,7 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: list current directory
       run: ls -a
-    - name: target folder
+    - name: target folders
       run: |
        cd target
        ls -a
